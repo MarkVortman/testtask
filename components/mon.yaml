@@ -6,12 +6,12 @@ metadata:
 spec:
   project: default
   source:
-    repoURL: https://victoriametrics.github.io/helm-charts/
-    chart: victoria-metrics-k8s-stack
-    targetRevision: "*"
+    repoURL: https://github.com/MarkVortman/testtask
+    targetRevision: main
+    path: charts/monitoring
     helm:
       valueFiles:
-        - values/victoria-values.yaml
+        - ../../values/mon-values.yaml
   destination:
     server: https://kubernetes.default.svc
     namespace: monitoring
