@@ -15,8 +15,7 @@ data:
           "title": "Requests Total",
           "targets": [
             {
-              "expr": "spam2000_requests_total",
-              "legendFormat": "{{instance}}"
+              "expr": "spam2000_requests_total"
             }
           ]
         },
@@ -25,8 +24,7 @@ data:
           "title": "Errors Total",
           "targets": [
             {
-              "expr": "spam2000_errors_total",
-              "legendFormat": "{{instance}}"
+              "expr": "spam2000_errors_total"
             }
           ]
         }
