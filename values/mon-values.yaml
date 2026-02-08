@@ -10,6 +10,10 @@ grafana:
   #       name: gitops
   #       folder: /var/lib/grafana/dashboards/gitops
 
-admissionWebhooks:
-  certManager:
-    enabled: true
+victoria-metrics-operator:
+  enabled: true
+  admissionWebhooks:
+    enabled: false
+
+crds:
+  plain: true
