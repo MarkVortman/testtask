@@ -1,11 +1,11 @@
 nameOverride: mon
 grafana:
-  enabled: true
-  defaultDashboardsEnabled: false
-  sidecar:
-    dashboards:
-      enabled: true
-      label: grafana_dashboard
-      provider:
-        name: gitops
-        folder: /var/lib/grafana/dashboards/gitops
+  enabled: false
+  # defaultDashboardsEnabled: false
+  # sidecar:
+  #   dashboards:
+  #     enabled: true
+  #     label: grafana_dashboard
+  #     provider:
+  #       name: gitops
+  #       folder: /var/lib/grafana/dashboards/gitops
