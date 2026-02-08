@@ -9,3 +9,7 @@ grafana:
   #     provider:
   #       name: gitops
   #       folder: /var/lib/grafana/dashboards/gitops
+
+admissionWebhooks:
+  certManager:
+    enabled: true
