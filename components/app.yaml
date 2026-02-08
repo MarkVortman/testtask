@@ -11,7 +11,7 @@ spec:
     path: charts/spam
     helm:
       valueFiles:
-        - ../values/spam-values.yaml
+        - ../../values/spam-values.yaml
   destination:
     server: https://kubernetes.default.svc
     namespace: spam

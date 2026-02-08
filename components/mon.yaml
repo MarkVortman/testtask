@@ -11,7 +11,7 @@ spec:
     targetRevision: "*"
     helm:
       valueFiles:
-        - ../values/victoria-values.yaml
+        - values/victoria-values.yaml
   destination:
     server: https://kubernetes.default.svc
     namespace: monitoring
